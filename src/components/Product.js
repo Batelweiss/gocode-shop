@@ -1,6 +1,5 @@
-const ProductCard=()=>(
-    <div>
-      <div title="product-card"></div>
+import './Product.css'
+const Product=()=>( 
         <div className="product-card">
           <div className="product-image">
             <img
@@ -8,8 +7,9 @@ const ProductCard=()=>(
             />
           </div>
           
-            <h5>Winter Jacket</h5>
+         <div className="product-info">
+         <h5>Winter Jacket</h5>
             <h6>$99.99</h6>
           </div>
-    </div>
-  );
+          </div>
+    );
