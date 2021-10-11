@@ -1,7 +1,7 @@
-
 import './Header.css'
-const Header=()=>(
-  <nav className="product-filter">
+function Header() {
+    return (
+        <nav className="product-filter">
         <h1>Jackets</h1>
   
         <div className="sort">
@@ -18,13 +18,8 @@ const Header=()=>(
               <option value="/">womens</option>
             </select>
           </div>
-          </div>
-         
   
-  
-  
-  
-    <div className="collection-sort">
+          <div className="collection-sort">
             <label>Sort by:</label>
             <select>
               <option value="/">Featured</option>
@@ -36,7 +31,9 @@ const Header=()=>(
               <option value="/">Date, new to old</option>
               <option value="/">Date, old to new</option>
             </select>
-            </div>
-            </nav>
-  
-  );
+          </div>
+        </div>
+      </nav>
+    );
+  }
+  export default Header;

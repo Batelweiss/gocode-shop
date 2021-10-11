@@ -1,6 +1,7 @@
 import './Products.css'
 import Product from "../Product/Product";
-const Products =()=>(
+function Products () {
+        return(
     <section className ="Products">
             <Product />
             <Product />
@@ -14,4 +15,6 @@ const Products =()=>(
             <Product />
     </section>
    );
+        }
+  export default Products; 
    
