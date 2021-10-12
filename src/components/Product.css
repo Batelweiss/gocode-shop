@@ -19,6 +19,16 @@
   text-align: center;
 }
 
+h5 {
+  font-weight: 500;
+  line-height: 1.7em;
+}
+
+h6 {
+  color: #666;
+  font-size: 14px;
+}
+
 @media (max-width: 920px) {
   .product-card {
     flex: 1 21%;
@@ -34,14 +44,4 @@
   .product-card {
     flex: 1 46%;
   }
-}
-
-h5 {
-  font-weight: 500;
-  line-height: 1.7em;
-}
-
-h6 {
-  color: #666;
-  font-size: 14px;
 }
